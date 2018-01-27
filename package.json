@@ -1,0 +1,27 @@
+{
+  "name": "pdapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmoalin/pdapi.git"
+  },
+  "author": "Mo Moalin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mmoalin/pdapi/issues"
+  },
+  "homepage": "https://github.com/mmoalin/pdapi#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongoose": "^5.0.1",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.14.11"
+  }
+}
